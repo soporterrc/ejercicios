@@ -1,0 +1,147 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-25T02:56:44.869Z",
+        "line": 3,
+        "name": "Diligence Formulary",
+        "description": "",
+        "id": "registry-dates;diligence-formulary",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3162272400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Chrome",
+            "match": {
+              "location": "stepDefinitions.DiligenceForm.open_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1065319300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter URL",
+            "match": {
+              "location": "stepDefinitions.DiligenceForm.enter_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3441146000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Go To Form",
+            "match": {
+              "location": "stepDefinitions.DiligenceForm.go_to_form()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2088575800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enter Password \"Colom2021!\" And Email \"pruebas\" And Dominio \"gmail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Colom2021!\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"pruebas\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"gmail\"",
+                  "offset": 65
+                }
+              ],
+              "location": "stepDefinitions.DiligenceForm.user_enter_password_and_email_and_dominio(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3076630800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check Terms y Conditions",
+            "match": {
+              "location": "stepDefinitions.DiligenceForm.check_terms_y_conditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112695400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Next",
+            "match": {
+              "location": "stepDefinitions.DiligenceForm.click_on_next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97739400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "View Page of This is me",
+            "match": {
+              "location": "stepDefinitions.DiligenceForm.view_page_of_this_is_me()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 324132600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Choose Three interests",
+            "match": {
+              "location": "stepDefinitions.DiligenceForm.choose_three_interests()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d91.0.4472.164)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027BOG-CRL8RV2\u0027, ip: \u0027192.168.1.13\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\rrianoca\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:60973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9ed5f5d480091dfdc0ea475117c6b188\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\r\n\tat stepDefinitions.DiligenceForm.upload_image(DiligenceForm.java:87)\r\n\tat ✽.Upload Image(file:///C:/Proyectos/userinyerface/Features/FormularioFeature.feature:12)\r\n",
+              "duration": 3102683300,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "Upload Image",
+            "match": {
+              "location": "stepDefinitions.DiligenceForm.upload_image()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Registry dates",
+    "description": "",
+    "id": "registry-dates",
+    "keyword": "Feature",
+    "uri": "file:Features/FormularioFeature.feature",
+    "tags": []
+  }
+]
